@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0 auto;
+            padding: 0;
+
+        }
+
+        .header{
+            display: flex;
+            margin: 0px;
+            padding: 28px;
+            justify-content: center;
+            align-items: center;
+            background-color: skyblue;
+        }
+
+        .headername{
+            display: flex;
+            font-size: 30px;
+            
+        }
+        .main{
+            display: flex;
+            margin: 0px;
+            padding: 0;
+            
+        }
+        .mainleft{
+            display: flex;
+            flex-direction: column;
+            justify-content: baseline;
+            align-items: center;
+            width: 80px;
+            height: px;
+            
+        }
+        .all{
+            display: flex;
+            flex-direction: column;
+            margin: 5px;
+            cursor: pointer;
+
+        }
+        .section{
+            display: flex;
+            flex-direction: row;
+            cursor: pointer;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="header">
+        <div class="headername">
+            <div>예약 정리 사이트</div>
+            
+        </div>
+    </div>
+    <div>
+        <div class="main">
+            <div class="mainleft">
+                
+                <div class="all">
+                    <div>전체</div>
+
+                </div>
+                <div class="section" onclick="card" aria-placeholder="추가"></div>
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">card title</h5>
+                      <p class="card-text">상세 내용</p>
+                      <a href="#" class="btn btn-primary">닫기</a>
+                    </div>
+                  </div>
+
+            </div>
+            <div class="mainright">
+                <div class="map">
+
+                </div>
+                <div class="buttons">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
