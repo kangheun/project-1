@@ -29,30 +29,45 @@
             margin: 0px;
             padding: 0;
             
+            
         }
         .mainleft{
             display: flex;
             flex-direction: column;
+            margin: 50px;
+            align-items: baseline;
             justify-content: baseline;
-            align-items: center;
-            width: 80px;
-            height: px;
+            width: 100px;
+            height: 100px;
+            gap: 15px;
             
         }
         .all{
             display: flex;
             flex-direction: column;
-            margin: 5px;
             cursor: pointer;
-
+            justify-content: baseline;
+            align-items: baseline;
         }
         .section{
             display: flex;
             flex-direction: row;
             cursor: pointer;
-            justify-content: center;
-            align-items: center;
+            
         }
+        .section-1{
+            display: flex;
+            flex-direction: column;
+            cursor: pointer;
+            justify-content: baseline;
+            align-items: baseline;
+
+        }
+        .section
+       .card{
+        display: none;
+        
+       }
     </style>
     <title>Document</title>
     
@@ -72,15 +87,23 @@
                     <div>전체</div>
 
                 </div>
-                <div class="section" onclick="card" aria-placeholder="추가"></div>
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">card title</h5>
-                      <p class="card-text">상세 내용</p>
-                      <a href="#" class="btn btn-primary">닫기</a>
+                
+                <div class="section">
+                    <input class= "section-1" type="text" placeholder="계획 1">
+                    </input>
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                          <input class="card-title" type="text" placeholder="장소입력"></input>
+                          <h3 class="card-subtitle-text1">일자</h3>
+                          <h6 class="card-subtitle-text2">상세 주소</h6>
+                          <p class="card-text">추가 내용 기입</p>
+                          <a href="#" class="card-link">닫기</a>
+                          <a href="#" class="card-link">공유</a>
+                        </div>
                     </div>
-                  </div>
+                    
+                </div>
+                
 
             </div>
             <div class="mainright">
@@ -94,5 +117,8 @@
             </div>
         </div>
     </div>
+
+
+    </script>
 </body>
 </html>
